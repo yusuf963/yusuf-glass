@@ -4,22 +4,26 @@
   box-sizing: border-box;
 }
 
-h1 {
+.user-name{
   color: #426696;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 1.5rem;
   opacity: 0.8;
 }
-h2,
+.user-img{
+  width: 150px;
+  height: 150px;
+}
+h2{
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8; 
+}
+
+h3,
 p {
   color: #658ec6;
   font-weight: 500;
-  opacity: 0.8;
-}
-
-h3 {
-  color: #426696;
-  font-weight: 600;
   opacity: 0.8;
 }
 
@@ -33,8 +37,9 @@ main {
 }
 
 .glass {
+  margin: 50px 0;
   background: white;
-  min-height: 80vh;
+  min-height: 60vh;
   width: 60%;
   background: linear-gradient(
     to right bottom,
@@ -51,8 +56,8 @@ main {
   background: white;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.3)
+    rgba(255, 100, 75, 0.8),
+    rgba(255, 100, 75, 0.3)
   );
   height: 20rem;
   width: 20rem;
@@ -113,10 +118,10 @@ main {
   width: 40%;
   color: white;
   font-weight: 600;
-}
+} */
 
 /* GAMES */
-.status {
+/* .status {
   margin-bottom: 3rem;
 }
 
@@ -180,4 +185,4 @@ main {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
